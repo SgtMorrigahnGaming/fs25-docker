@@ -25,4 +25,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          # We manually type it in lowercase here to avoid the error
+          tags: ghcr.io/sgtmorrigahngaming/fs25-docker:latest
